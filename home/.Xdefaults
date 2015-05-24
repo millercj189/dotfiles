@@ -1,0 +1,31 @@
+! Appearance
+Xft.antialias : 1
+Xft.autohint  : 0
+Xft.dpi       : 96
+Xft.hinting   : 1
+Xft.hintstyle : hintfull
+Xft.lcdfilter : lcddefault
+Xft.rgba      : rgb
+
+! Colors
+URxvt.foreground : White
+URxvt.background : Black
+
+! Fonts
+URxvt.font : xft:Dejavu Sans Mono:size=8
+
+! URL
+URxvt.perl-ext-common   : default,matcher
+URxvt.matcher.button    : 1
+URxvt.url-launcher      : xdg-open
+
+! MISC
+URxvt.cursorBlink     : false
+URxvt.intensityStyles : true
+URxvt.jumpScroll      : true
+URxvt.saveLines       : 4096
+URxvt.scrollBar       : false
+URxvt.skipScroll      : true
+URxvt.urgentOnBell    : true
+URxvt.internalBorder  : 2
+URxvt.geometry        : 80x30
