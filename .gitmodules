@@ -1,0 +1,18 @@
+[submodule "home/.emacs.d/bin/circe"]
+	path = home/.emacs.d/bin/circe
+	url = https://github.com/jorgenschaefer/circe.git
+[submodule "home/.emacs.d/bin/emux"]
+	path = home/.emacs.d/bin/emux
+	url = https://github.com/re5et/emux.git
+[submodule "home/.emacs.d/bin/magit"]
+	path = home/.emacs.d/bin/magit
+	url = https://github.com/magit/magit.git
+[submodule "home/.emacs.d/bin/multi-term"]
+	path = home/.emacs.d/bin/multi-term
+	url = https://github.com/emacsmirror/multi-term.git
+[submodule "home/.emacs.d/bin/rudel"]
+	path = home/.emacs.d/bin/rudel
+	url = https://github.com/scymtym/rudel.git
+[submodule "home/.emacs.d/bin/smarttabs"]
+	path = home/.emacs.d/bin/smarttabs
+	url = https://github.com/jcsalomon/smarttabs.git
