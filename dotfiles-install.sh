@@ -20,9 +20,7 @@ function submodule_init() {
 
 function submodule_update() {
     echo "" \
-	&& sleep 2 \
-	&& \
-	&&
+	&& sleep 2
 }
 
 

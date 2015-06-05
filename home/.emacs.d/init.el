@@ -1,8 +1,8 @@
 ;; Settings
 ;;----------------------------------------------------------
-(tool-bar-mode -1)
-(menu-bar-mode -1)
-(scroll-bar-mode -1)
+;(tool-bar-mode -1)
+;(menu-bar-mode -1)
+;(scroll-bar-mode -1)
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 
@@ -29,16 +29,16 @@
 
 ;; Keybinds
 ;;----------------------------------------------------------
-(global-set-key (kbd "<C-tab>"         ) `next-buffer)
-(global-set-key (kbd "<C-iso-lefttab>" ) `previous-buffer)
+(global-set-key (kbd "C-x ]" ) `next-buffer)
+(global-set-key (kbd "C-x [" ) `previous-buffer)
 
-(global-set-key (kbd "<M-up>"    ) `windmove-up)
-(global-set-key (kbd "<M-down>"  ) `windmove-down)
-(global-set-key (kbd "<M-left>"  ) `windmove-left)
-(global-set-key (kbd "<M-right>" ) `windmove-right)
+(global-set-key (kbd "C-x <up>"    ) `windmove-up)
+(global-set-key (kbd "C-x <down>"  ) `windmove-down)
+(global-set-key (kbd "C-x <left>"  ) `windmove-left)
+(global-set-key (kbd "C-x <right>" ) `windmove-right)
 
-(global-set-key (kbd "M--" ) `split-window-vertically)
-(global-set-key (kbd "M-=" ) `split-window-horizontally)
+(global-set-key (kbd "C-x -" ) `split-window-vertically)
+(global-set-key (kbd "C-x =" ) `split-window-horizontally)
 
 
 
@@ -51,14 +51,14 @@
   (normal-top-level-add-subdirs-to-load-path)
   (nconc load-path orig-load-path))
 
-(require 'circe)
-(load "~/.emacs.d/config/circe.el")
-(load "~/.emacs.d/config/euth/eu-circe.el")
+;(require 'circe)
+;(load "~/.emacs.d/config/circe.el")
+;(load "~/.emacs.d/config/euth/eu-circe.el")
 
 (require 'multi-term)
 (load "~/.emacs.d/config/multi-term.el")
 
-;;(require ‘emux)
+;;(require emux)
 ;;(load "~/.emacs.d/cfg/emux.el")
 
 (load "~/.emacs.d/config/smarttabs.el")
